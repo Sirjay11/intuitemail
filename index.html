@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="color-scheme" content="light dark">
+   <meta name="supported-color-schemes" content="light dark">
+	<title>HTML Email Template Boilerplate</title>
+   <style type="text/css">
+   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+      table{
+         border-spacing: 0;
+      }
+      td{
+         padding: 0;
+      }
+      p{
+         font-size: 15px;
+      }
+      img{
+         border: 0;
+      }
+      a {
+         color: #e8fbfa;
+         text-decoration: none;
+      }
+
+		@media screen and (max-width: 599.98px) {
+         .two-columns .padding,
+         .two-third-columns .padding,
+         .three-columns .padding {
+            padding-right: 0!important;
+            padding-left: 0!important;
+         }
+         img .two-col-img {
+            width: 300px!important;
+            max-width: 300px!important;
+         }
+         .two-third-columns .padding .first {
+            padding-bottom: 0!important;
+         }
+         .two-third-columns .padding .last {
+            padding-top: 0!important;
+         }
+         img.one-third-col-img,
+         img.three-col-img-last {
+            width: 200px!important;
+            max-width: 200px!important;
+         }
+         .two-third-columns .content {
+            text-align: center!important;
+         }
+         .banner {
+            height: auto!important;
+            padding-top: 40px!important;
+            padding-bottom: 60px!important;
+         }
+      }
+      @media screen and (max-width: 399.98px) {
+         img.three-col-img {
+            width: 200px!important;
+            max-width: 200px!important;
+         }
+         .banner {
+            
+            padding-top: 10px!important;
+            padding-bottom: 40px!important;
+         }
+
+      }
+
+      /* Custom Dark Mode Colors */
+      :root {
+         color-scheme: light dark;
+         supported-color-schemes: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+         body, center, table {
+            background: #2d2d2d!important;
+            color: #ffffff!important;
+         }
+         .darkmode-transparent {
+            background-color: transparent!important;
+         }
+      }
+	</style>
+   <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+         table{
+            border-collapse: collapse!important;
+         }
+      </style>
+   <![endif]-->
+</head>
+<body style="Margin:0;padding:0;min-width: 100%;background-color: #dde0e1;">
+
+   <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+         body {background-color: #dde0e1!important;}
+         body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;}
+      </style>
+   <![endif]-->
+   <center style="width: 100%;table-layout: fixed;background-color: #dde0e1;padding-bottom: 40px;">
+      <div style="max-width: 600px;background-color: #fafdfe;box-shadow: 0 0 10px rgba(0, 0, .2);">
+         <!-- Pre Header text(remove all comments before sending emails live)-->
+         <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+            
+            <!--Add Preheader text here(85-100 characters in length)-->
+         </div>
+         <!-- End Pre Header text(remove comment)-->
+         <!--[if (gte ,mso 9)|(IE)]>
+            <table width="600" align="center" style="border-spacing: 0;color:#565656; role="presentation">
+               <tr>
+                  <td style="padding:0;">
+         <![endif]-->
+         <table width="100%"cellpadding="0"cellspacing="0"border="0"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d" 
+            role="presentation">
+            <tr>
+               <td class="content-left"style="font-size:0px;"></td>
+               <td width="768"align="center"class="content-center">
+                  <table class="main-content"cellpadding="0"cellspacing="0"border="0"role="presentation"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d;width:100%;table-layout:fixed;">
+                     <tr>
+                        <td>
+                           <div id="title-container"class="title-container"style="font-size:13px;letter-spacing:0px;text-align:center;color:#6b6c72;margin-bottom:10px;">INVOICE NO. DETAILS</div>
+                           <div id="header">
+                              <div class="header2">
+                                 <div class="logo-center">
+                                    <div>
+                                       <table class="width100"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d;width:100%;">
+                                          <tr class="email-section"style="background-color:#f4f5f8">
+                                             <td class="company-name"style="font-size:20px;letter-spacing:0px;text-align:center;padding:26px;color:#4f90bb;border-top:3px solid #4f90bb">Order Conf</td>
+                                          </tr>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </div>
+                              <br aria-hidden="true">
+                              <br aria-hidden="true">
+                              <table id="amount-container"class="amount-container"width="100%"cellpadding="0"cellspacing="0"border="0"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d;text-align:center;align-items:center;width:100%;font-size:13px;background-color:#dce9f1;"
+                              role="presentation">
+                                 <tr>
+                                    <td class="date-wrapper"style="word-break:break-word;padding:31px 0px 20px 0px">
+                                    <table class="width100"cellpadding="0"cellspacing="0"border="0"role="presentation"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d;width:100%;">
+                                       <tr>
+                                          <td id="date-container"class="date-container"style="padding:0px;font-size:16px;font-weight:bold;letter-spacing:0px;text-align:center;color:#393a3d">DUE 10/26/20202</td>
+                                       </tr>
+                                       <tr>
+                                          <td id="amount-due"class="amount-due"height="1"style="font-size:48px;letter-spacing:0px;text-align:center;color:#393a3d;font-weight:bold;padding:9px 0px 12px 0px;">$499.98</td>
+                                       </tr>
+                                       <tr>
+                                          <td class="review-tab"align="center"style="padding:0px 0px 10px 0px;">
+                                             <table cellpadding="0"cellspacing="0"border="0"role="presentation"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d;margin:auto;">
+                                                <tr>
+                                                   <td class="review-tab"style="width:200px;height:36px;border-radius:4px;font-size:16px;text-align:center;padding:0px;background-color:#393a3d">
+                                                      <a href="https://intuit.com"style="font-weight:bold;text-align:center;vertical-align:middle;color:#fffffff;text-decoration:none;padding:10px 50px;white-space:nowrap;width:100%">Print or Save</a>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="label-text"height="1"style="font-size:15px;text-align:center;color:#393a3d;font-weight:300;padding:0px;">Powered by Quickbooks</td>
+                                       </tr>
+                                    </table>
+                                    </td>
+                                 </tr>
+                              </table>
+                              <div id="email-container"class="email-container"style="font-size:18px;line-height:1.5;text-align:left;padding-left:20px;margin-left:20px;">
+                                 <p>
+                                    Dear Geeksquad Customer ID 1233456,
+                                    <br aria-hidden="true">
+                                    <br aria-hidden="true">
+                                    Thank you for choosing Geeksquad Your Annual Subscription has expired and has been Auto Renewed as per your existing plan.
+                                    <br aria-hidden="true">
+                                    <br aria-hidden="true">
+                                    We would like to thank you for the completion of 12-months maintenance plan.
+                                    <br aria-hidden="true">
+                                    <br aria-hidden="true">
+                                    PRODUCTION DESCRIPTION
+                                    <br aria-hidden="true">
+                                    <br aria-hidden="true">
+                                    Geeksquad 12 Month maintenance plan
+                                    <br aria-hidden="true">
+                                    Quantity:1
+                                    <br aria-hidden="true">
+                                    Payment Mode: - Auto Debit
+                                    <br aria-hidden="true">
+                                    Paid Amount: - $499.98
+                                    <br aria-hidden="true">
+                                    <br aria-hidden="true">
+                                    We auto-renewed your plan and charged $499.98 against your account. If you have any questions regarding your bill, please contact our office at1(123)456-7899. Our phone hours are from 8:00 a.m. to 4:00 p.m.(EST), Monday through Friday.
+                                    <br aria-hidden="true">
+                                    <br aria-hidden="true">
+                                    You will be billed rach plan period until you cancel by downgrading to the free plan from your iOS, Android device, Mac or Windows PC.
+                                    <br aria-hidden="true">
+                                    <br aria-hidden="true">
+                                    You may contact us for a full refund within 15 days of the payment date. Partial refunds are available where required by law after this period. Please find your invoice details here. Feel free to contact us if you have any questions.
+                                    <br aria-hidden="true">
+                                    <br aria-hidden="true">
+                                    Have a great day!
+                                    <br aria-hidden="true">
+                                    Billing Department
+                                    <br aria-hidden="true">
+                                    Geeksquad support
+                                    <br aria-hidden="true">
+                                    +1(234)567-8989
+                                 </p>
+                              </div>
+                           </div>
+                           <table class="billing"cellpadding="0"cellspacing="0"border="0"role="presentation"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d;width:100%;background-color:#f4f5f8;font-size:18px;table-layout:fixed;">
+                              <tr>
+                                 <td class="outer-wrapper"style="padding:20px 0px;">
+                                    <table class="width100" cellpadding="0"cellspacing="0"border="0"role="presentation"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d;width:100%;background-color:#f4f5f8;font-size:18px;table-layout:fixed;">
+                                       <tr>
+                                          <td class="bill-section"style="background-color:#f4f5f8;padding:10px 20px 10px 40px;">
+                                             <table class="bill-container"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d;width:100%;table-layout:fixed;">
+                                                <tr>
+                                                   <td class="bill-header"style="vertical-align:top;font-size:18px;word-break:break-word;padding:10px 5px;">
+                                                      <div style="display:inline-block">Bill to:</div>
+                                                   </td>
+                                                   <td class="billto-content"style="display:inline-block; word-wrap:break-word;word-break:break-word;font-size:18px;padding:10px 5px;">
+                                                      <div style="display:inline-block;">Geeksquad Customer ID 1234567
+                                                      <br aria-hidden="true">
+                                                      ACOMA ST SOMEWHERE TX 12345
+                                                      <br aria-hidden="true">
+                                                      United States
+                                                      <br aria-hidden="true">
+                                                   </div>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+                           <table class="detail-section"cellpadding="0"cellspacing="0"border="0"role="presentation"style="font-family:ArialMT,Arial,Helvetica,Times New Roman;color:#393a3d;width:100%;">
+                              <tr>
+                                 <td>
+                                    <table>
+                                       <tr>
+                                          <td>
+                                             <table>
+                                                <tr>
+                                                   <td>
+                                                      <table>
+                                                         <tr>
+                                                            <td>
+                                                               <div></div>
+                                                            </td>
+                                                         </tr>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+         </table>
+      </div>
+</center>
+</body>
+</html>
